@@ -1,0 +1,6 @@
+Dark orange:	#d35100
+Medium orange:    #f07900
+Light orange:     #f8a145
+
+Dark gray:		#151515
+Black:		#000000
