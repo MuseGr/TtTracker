@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+.container{
+    background-color: #292828;
+    width: 600px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container_element{
+    /* background-color: aquamarine; */
+    width: 100%;
+    margin: 7px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end_form{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.logo{
+    height: 12em;
+}
+.logoText_img{
+    width: 80%;
+}
+.logo h1{
+    font-weight: 600;
+    font-size: 80px;
+}
+.main_form{
+    height: 22em;
+}
+.main_form form{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main_form p{
+    margin-left: 1em;
+    color: #f07900;
+}
+.main_form input[type = text], input[type = password]{
+    margin: 10px;
+    width: 25em;
+    padding: 0.8em 0.6em;
+    border-radius: 0.1em;
+    border: none;
+    appearance: none;
+    outline: none;
+    background-color: #f8a145;
+    color: #151515;
+    font-size: large;
+    font-weight: 600;
+}
+input[type = text]:focus, input[type = password]:focus{
+    border-bottom: 3.5px solid #f07900; 
+}
+input:focus::placeholder{
+    color: transparent;
+}
+input::placeholder{
+    font-weight: 550;
+    color: rgba(50, 50, 50, 0.6);
+    transition: color 0.3s ease;
+}
+.submit_btn{
+    width: 100%;
+    text-align: center;
+}
+.submit_btn input{
+    width: 85%;
+    margin-top: 1em;
+    padding: .7em;
+    border: none;
+    border-radius: .1em;
+    font-size: x-large;
+    font-weight: 650;
+    color: #292828;
+    background-color: #f07900;
+}
+.main_form-p{
+    font-size: x-large;
+}
+.end_form{
+    height: 10em;
+}
+.end_form p{
+    color: #f8a145;
+}
+.end_form a{
+    color: #f07900;
+    direction: none;
+}
